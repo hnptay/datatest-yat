@@ -1,4 +1,4 @@
-package GetData;
+package first_commit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,7 @@ import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.concurrent.TimeUnit;
 
-public class GetDataFromWeb {
+public class GetData {
 
     private WebDriver driver;
     private WebElement element;
