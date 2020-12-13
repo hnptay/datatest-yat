@@ -34,7 +34,7 @@ public class GetData {
     public void getData() throws FileNotFoundException, UnsupportedEncodingException {
         driver.get("http://diemthi.hcm.edu.vn/");
         wait = new WebDriverWait(driver,15);
-        printWriter = new PrintWriter("D:\\Data\\data2.txt","UTF_8");
+        printWriter = new PrintWriter("D:\\Data\\data2.txt", "UTF-8");
         int i = 2000519; //2074719
         while(true) {
             driver.findElement(By.xpath("//input[@id='SoBaoDanh']")).clear();
